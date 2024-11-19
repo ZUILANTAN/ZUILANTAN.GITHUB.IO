@@ -1,12 +1,149 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>pagina de zuilan tan</title>
-</head>
->body>
-<h1>Bienvenidos a la pagína de zuilan</h1>
-<p>blessing</p>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhLSr9vn00eRC6njrJXLkGyGsLIkXzAYhSEeAPWcp_Q&s" alt=""" srcset="" width="680">
-</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiante Rebelde y Talentosa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2d2d2d;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ff3366;
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border-bottom: 4px solid #f7f7f7;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .profile-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .profile-info img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 4px solid #ff3366;
+            margin-right: 20px;
+        }
+
+        .profile-info div {
+            flex: 1;
+            margin: 10px;
+        }
+
+        h2 {
+            color: #ff3366;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .skills ul {
+            list-style-type: none;
+        }
+
+        .skills li {
+            background: #ff3366;
+            padding: 8px 15px;
+            margin: 5px 0;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            border-left: 5px solid #ff3366;
+            padding-left: 20px;
+            color: #bbb;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: #ccc;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                font-size: 2rem;
+            }
+
+            .profile-info {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile-info img {
+                width: 150px;
+                height: 150px;
+            }
+
+            .skills ul {
+                padding-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Rebelde, Talentosa y Programadora
+</header>
+
+<div class="container">
+    <section class="profile-info">
+        <img src="https://via.placeholder.com/250" alt="Imagen de la estudiante">
+        <div>
+            <h2>Acerca de mí</h2>
+            <p>Soy una estudiante de programación con un enfoque único. Me apasionan los retos, los algoritmos imposibles y la creatividad que puedo aportar al mundo de la tecnología. Siempre he sido un poco rebelde, no me gusta seguir las reglas tradicionales. ¡Me gusta hackear sistemas y el status quo!</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+            <li>Node.js</li>
+            <li>React</li>
+        </ul>
+    </section>
+
+    <section class="quote">
+        <p>"La programación no es solo código, es un estilo de vida. No sigo reglas, las creo."</p>
+    </section>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 Rebelde Tech | Todos los derechos reservados</p>
+</footer>
+
+</body>
 </html>
